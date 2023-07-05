@@ -1,7 +1,10 @@
 package ufes.main;
 
+import ufes.presenters.MainPresenter;
+
 public class Main {
    public static void main(String [] args){
-       System.out.println("oi");
+       
+       MainPresenter mainPresenter = new MainPresenter();
    }
 }
